@@ -1,2 +1,3 @@
 # What-is-your-spectrum
- A site to decite what is you spectrum of my RPG world
+ I've been preparing a rpg to play with my friends, and one of the important things is to decide the spectrum of the characters.
+ This project will help to decide their spectrum.
