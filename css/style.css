@@ -1,0 +1,59 @@
+:root{
+    --font-size: 1.3rem;
+    --mono: "Oxygen mono", monospace;
+    --sans: Oxygen, sans-serif;
+  }
+html{
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after{
+    box-sizing: inherit;
+  }
+  body{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    font-size: var(--font-size);
+    font-family: var(--sans);
+  }
+  a{
+    text-decoration: none;
+    color: #48b1aa;
+  }
+  a:hover{
+      color: #57d1c9;
+  }
+  ul{
+      list-style-type:none;
+  }
+
+  /* header */
+
+  .header{
+      display: flex;
+  }
+  .header img{
+    width: 9%;
+    margin: 0 auto;
+  }
+  .header img:hover{
+      cursor: pointer;
+  }
+
+  /* footer */
+  footer{
+    text-align: center;
+    padding: 4rem 0;
+  }
+  footer ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 2rem 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 3rem;
+    font-size: 1rem
+  }
